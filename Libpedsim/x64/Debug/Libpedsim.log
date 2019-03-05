@@ -1,0 +1,86 @@
+﻿  ped_waypoint.cpp
+  ped_vector.cpp
+  ped_model.cpp
+x:\documents\crowdsimulation2019\crowdsimulation2019\libpedsim\src\ped_agent.h(41): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+x:\documents\crowdsimulation2019\crowdsimulation2019\libpedsim\src\ped_agent.h(47): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+x:\documents\crowdsimulation2019\crowdsimulation2019\libpedsim\src\ped_agent.h(72): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+x:\documents\crowdsimulation2019\crowdsimulation2019\libpedsim\src\ped_agent.h(79): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+x:\documents\crowdsimulation2019\crowdsimulation2019\libpedsim\src\ped_model.cpp(98): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+x:\documents\crowdsimulation2019\crowdsimulation2019\libpedsim\src\ped_model.cpp(99): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+x:\documents\crowdsimulation2019\crowdsimulation2019\libpedsim\src\ped_model.cpp(121): warning C4101: 't9': unreferenced local variable
+x:\documents\crowdsimulation2019\crowdsimulation2019\libpedsim\src\ped_model.cpp(181): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+x:\documents\crowdsimulation2019\crowdsimulation2019\libpedsim\src\ped_model.cpp(182): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\type_traits(1376): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\type_traits(1444): note: see reference to function template instantiation 'void std::_Invoker_functor::_Call<void(__cdecl *)(std::vector<Ped::Tagent *,std::allocator<_Ty>>,int,int),std::vector<_Ty,std::allocator<_Ty>>,int,unsigned __int64>(_Callable &&,std::vector<_Ty,std::allocator<_Ty>> &&,int &&,unsigned __int64 &&)' being compiled
+          with
+          [
+              _Ty=Ped::Tagent *,
+              _Callable=void (__cdecl *)(std::vector<Ped::Tagent *,std::allocator<Ped::Tagent *>>,int,int)
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\thr\xthread(240): note: see reference to function template instantiation 'void std::invoke<void(__cdecl *)(std::vector<Ped::Tagent *,std::allocator<_Ty>>,int,int),std::vector<_Ty,std::allocator<_Ty>>,int,unsigned __int64>(_Callable &&,std::vector<_Ty,std::allocator<_Ty>> &&,int &&,unsigned __int64 &&)' being compiled
+          with
+          [
+              _Ty=Ped::Tagent *,
+              _Callable=void (__cdecl *)(std::vector<Ped::Tagent *,std::allocator<Ped::Tagent *>>,int,int)
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\thr\xthread(249): note: see reference to function template instantiation 'void std::_LaunchPad<_Target>::_Execute<0,1,2,3>(std::tuple<void (__cdecl *)(std::vector<Ped::Tagent *,std::allocator<_Ty>>,int,int),std::vector<_Ty,std::allocator<_Ty>>,int,unsigned __int64> &,std::integer_sequence<unsigned __int64,0,1,2,3>)' being compiled
+          with
+          [
+              _Target=std::unique_ptr<std::tuple<void (__cdecl *)(std::vector<Ped::Tagent *,std::allocator<Ped::Tagent *>>,int,int),std::vector<Ped::Tagent *,std::allocator<Ped::Tagent *>>,int,unsigned __int64>,std::default_delete<std::tuple<void (__cdecl *)(std::vector<Ped::Tagent *,std::allocator<Ped::Tagent *>>,int,int),std::vector<Ped::Tagent *,std::allocator<Ped::Tagent *>>,int,unsigned __int64>>>,
+              _Ty=Ped::Tagent *
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\thr\xthread(247): note: see reference to function template instantiation 'void std::_LaunchPad<_Target>::_Execute<0,1,2,3>(std::tuple<void (__cdecl *)(std::vector<Ped::Tagent *,std::allocator<_Ty>>,int,int),std::vector<_Ty,std::allocator<_Ty>>,int,unsigned __int64> &,std::integer_sequence<unsigned __int64,0,1,2,3>)' being compiled
+          with
+          [
+              _Target=std::unique_ptr<std::tuple<void (__cdecl *)(std::vector<Ped::Tagent *,std::allocator<Ped::Tagent *>>,int,int),std::vector<Ped::Tagent *,std::allocator<Ped::Tagent *>>,int,unsigned __int64>,std::default_delete<std::tuple<void (__cdecl *)(std::vector<Ped::Tagent *,std::allocator<Ped::Tagent *>>,int,int),std::vector<Ped::Tagent *,std::allocator<Ped::Tagent *>>,int,unsigned __int64>>>,
+              _Ty=Ped::Tagent *
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\thr\xthread(244): note: while compiling class template member function 'void std::_LaunchPad<_Target>::_Run(std::_LaunchPad<_Target> *) noexcept'
+          with
+          [
+              _Target=std::unique_ptr<std::tuple<void (__cdecl *)(std::vector<Ped::Tagent *,std::allocator<Ped::Tagent *>>,int,int),std::vector<Ped::Tagent *,std::allocator<Ped::Tagent *>>,int,unsigned __int64>,std::default_delete<std::tuple<void (__cdecl *)(std::vector<Ped::Tagent *,std::allocator<Ped::Tagent *>>,int,int),std::vector<Ped::Tagent *,std::allocator<Ped::Tagent *>>,int,unsigned __int64>>>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\thr\xthread(232): note: see reference to function template instantiation 'void std::_LaunchPad<_Target>::_Run(std::_LaunchPad<_Target> *) noexcept' being compiled
+          with
+          [
+              _Target=std::unique_ptr<std::tuple<void (__cdecl *)(std::vector<Ped::Tagent *,std::allocator<Ped::Tagent *>>,int,int),std::vector<Ped::Tagent *,std::allocator<Ped::Tagent *>>,int,unsigned __int64>,std::default_delete<std::tuple<void (__cdecl *)(std::vector<Ped::Tagent *,std::allocator<Ped::Tagent *>>,int,int),std::vector<Ped::Tagent *,std::allocator<Ped::Tagent *>>,int,unsigned __int64>>>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\thr\xthread(259): note: see reference to class template instantiation 'std::_LaunchPad<_Target>' being compiled
+          with
+          [
+              _Target=std::unique_ptr<std::tuple<void (__cdecl *)(std::vector<Ped::Tagent *,std::allocator<Ped::Tagent *>>,int,int),std::vector<Ped::Tagent *,std::allocator<Ped::Tagent *>>,int,unsigned __int64>,std::default_delete<std::tuple<void (__cdecl *)(std::vector<Ped::Tagent *,std::allocator<Ped::Tagent *>>,int,int),std::vector<Ped::Tagent *,std::allocator<Ped::Tagent *>>,int,unsigned __int64>>>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\thread(50): note: see reference to function template instantiation 'void std::_Launch<std::unique_ptr<std::tuple<void (__cdecl *)(std::vector<Ped::Tagent *,std::allocator<_Ty>>,int,int),std::vector<_Ty,std::allocator<_Ty>>,int,unsigned __int64>,std::default_delete<std::tuple<void (__cdecl *)(std::vector<_Ty,std::allocator<_Ty>>,int,int),std::vector<_Ty,std::allocator<_Ty>>,int,unsigned __int64>>>>(_Thrd_t *,_Target &&)' being compiled
+          with
+          [
+              _Ty=Ped::Tagent *,
+              _Target=std::unique_ptr<std::tuple<void (__cdecl *)(std::vector<Ped::Tagent *,std::allocator<Ped::Tagent *>>,int,int),std::vector<Ped::Tagent *,std::allocator<Ped::Tagent *>>,int,unsigned __int64>,std::default_delete<std::tuple<void (__cdecl *)(std::vector<Ped::Tagent *,std::allocator<Ped::Tagent *>>,int,int),std::vector<Ped::Tagent *,std::allocator<Ped::Tagent *>>,int,unsigned __int64>>>
+          ]
+  x:\documents\crowdsimulation2019\crowdsimulation2019\libpedsim\src\ped_model.cpp(188): note: see reference to function template instantiation 'std::thread::thread<void(__cdecl &)(std::vector<Ped::Tagent *,std::allocator<_Ty>>,int,int),std::vector<_Ty,std::allocator<_Ty>>&,int&,unsigned __int64,void>(_Fn,std::vector<_Ty,std::allocator<_Ty>> &,int &,unsigned __int64 &&)' being compiled
+          with
+          [
+              _Ty=Ped::Tagent *,
+              _Fn=void (__cdecl &)(std::vector<Ped::Tagent *,std::allocator<Ped::Tagent *>>,int,int)
+          ]
+  ped_agent.cpp
+x:\documents\crowdsimulation2019\crowdsimulation2019\libpedsim\src\ped_agent.h(41): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+x:\documents\crowdsimulation2019\crowdsimulation2019\libpedsim\src\ped_agent.h(47): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+x:\documents\crowdsimulation2019\crowdsimulation2019\libpedsim\src\ped_agent.h(72): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+x:\documents\crowdsimulation2019\crowdsimulation2019\libpedsim\src\ped_agent.h(79): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+x:\documents\crowdsimulation2019\crowdsimulation2019\libpedsim\src\ped_agent.cpp(99): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+x:\documents\crowdsimulation2019\crowdsimulation2019\libpedsim\src\ped_agent.cpp(100): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+x:\documents\crowdsimulation2019\crowdsimulation2019\libpedsim\src\ped_agent.cpp(101): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+x:\documents\crowdsimulation2019\crowdsimulation2019\libpedsim\src\ped_agent.cpp(134): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+x:\documents\crowdsimulation2019\crowdsimulation2019\libpedsim\src\ped_agent.cpp(135): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+x:\documents\crowdsimulation2019\crowdsimulation2019\libpedsim\src\ped_agent.cpp(136): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  heatmap_seq.cpp
+x:\documents\crowdsimulation2019\crowdsimulation2019\libpedsim\src\ped_agent.h(41): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+x:\documents\crowdsimulation2019\crowdsimulation2019\libpedsim\src\ped_agent.h(47): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+x:\documents\crowdsimulation2019\crowdsimulation2019\libpedsim\src\ped_agent.h(72): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+x:\documents\crowdsimulation2019\crowdsimulation2019\libpedsim\src\ped_agent.h(79): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+  Generating Code...
+  Libpedsim.vcxproj -> X:\Documents\CrowdSimulation2019\CrowdSimulation2019\x64\Debug\Libpedsim.lib
+  copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\bin\cudart*.dll" "X:\Documents\CrowdSimulation2019\CrowdSimulation2019\x64\Debug\"
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\bin\cudart32_92.dll
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\bin\cudart64_92.dll
+          2 file(s) copied.

@@ -1,0 +1,3 @@
+﻿  
+  X:\Documents\CrowdSimulation2019\CrowdSimulation2019\Libpedsim>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\include"     --keep-dir x64\timing-release -maxrregcount=0  --machine 64 --compile      -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /FS /Zi  /MD " -o x64\timing-release\cuda_testkernel.cu.obj "X:\Documents\CrowdSimulation2019\CrowdSimulation2019\Libpedsim\src\cuda_testkernel.cu" -clean 
+  cuda_testkernel.cu
