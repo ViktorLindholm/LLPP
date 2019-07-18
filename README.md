@@ -1,4 +1,4 @@
-# LLPP
+# Simulation
 
 Crowd (or Pedestrian) simulation is the study of the movement of people through
 various environments in order to understand the collective behaviour of crowds in
